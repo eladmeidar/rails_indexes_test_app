@@ -8,7 +8,7 @@
 
 <% @users.each do |user| %>
   <tr>
-    <td><%=h user.belongs_to %></td>
+    <td><%=h user.company_id %></td>
     <td><%=h user.name %></td>
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
