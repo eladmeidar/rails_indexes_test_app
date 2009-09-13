@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  addressable_id: 1
+  addressable_type: MyString
+  city: MyString
+  country: MyString
+
+two:
+  addressable_id: 1
+  addressable_type: MyString
+  city: MyString
+  country: MyString
