@@ -1,0 +1,18 @@
+h1. RailsIndexes Test application
+
+This application is a test platform for the "RailsIndexes":http://github.com/eladmeidar/rails_indexes/tree/master plugin.
+
+
+h3. Instructions
+
+Clone:
+<pre>git clone git://github.com/eladmeidar/rails_indexes_test_app.git</pre>
+
+setup your own database.yml
+
+
+Setup the test database
+<pre>RAILS_ENV=test db:create
+RAILS_ENV=test db:migrate</pre>
+and run:
+<pre>rake test:plugins</pre>
