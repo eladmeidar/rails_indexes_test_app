@@ -9,3 +9,10 @@ two:
   company_id: 
   name: MyString
   works_for_company_id:
+
+three:
+  company_id: 
+  sub_type: SuperUser
+  name: MyString
+  works_for_company_id:
+

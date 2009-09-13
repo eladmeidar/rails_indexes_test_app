@@ -14,7 +14,10 @@ class UsersController < ApplicationController
   # GET /users/1.xml
   def show
     @user = User.find(params[:id])
-
+    @user_by_name = User.find_by_name("elad")
+    @users_by_name = User.find_all_by_name("elad")
+    @users_by_name_and_company_id = User.find_all_by_name_and_company_id("elad",1)
+    
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @user }
